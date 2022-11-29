@@ -1,0 +1,146 @@
+.coin-info-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #3e3e42;
+	position: relative;
+}
+.button {
+	background-color: #007acc;
+	position: absolute;
+	left: 1rem;
+	color: white;
+	width: 7rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	border-radius: 3rem;
+	font-size: 1.2rem;
+	margin: 1rem 0 0 1rem;
+	cursor: pointer;
+}
+
+.coin-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	min-height: 100vh;
+	width: 70%;
+	margin-top: 1rem;
+	border-radius: 1rem;
+	background-color: #2d2d30;
+	color: white;
+}
+
+.coin-info h1 span {
+	opacity: 0.5;
+	font-size: 1rem;
+}
+
+.coin-info img {
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	margin: 1rem;
+}
+
+.coin-major-data {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem 0;
+	padding: 2rem;
+}
+
+.coin-major-data div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.coin-major-data span {
+	opacity: 0.5;
+	margin-bottom: 0.5rem;
+}
+
+.coin-major-data h4 {
+	color: #007acc;
+}
+
+.coin-major-data h6 {
+	padding: 0.3rem;
+	border-radius: 0.3rem;
+}
+
+.chart {
+	width: 95%;
+	height: 18rem;
+	background-color: #3e3e42;
+	margin-bottom: 1.5rem;
+	border-radius: 0.5rem;
+}
+
+.table {
+	width: 95%;
+	height: 10rem;
+	display: flex;
+	flex-direction: column;
+	border: 0.1rem solid #3e3e42;
+	margin-bottom: 2.5rem;
+	border-radius: 0.5rem;
+}
+
+.first-row,
+.second-row {
+	height: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.table-data {
+	height: 100%;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.first-row .table-data {
+	border-bottom: 0.1rem solid #3e3e42;
+}
+
+.first-row div:first-child,
+.second-row div:first-child {
+	border-right: 0.1rem solid #3e3e42;
+}
+
+#low {
+	color: #e94f64;
+}
+
+#high {
+	color: #52d273;
+}
+.table-data span {
+	opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+	.button {
+		position: relative;
+		margin-bottom: 1rem;
+		left: 0;
+		width: 6rem;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 1rem;
+	}
+
+	.coin-info {
+		width: 90%;
+	}
+}
