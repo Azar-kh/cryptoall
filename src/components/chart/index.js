@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import { Line } from 'react-chartjs-2'
+import { Chart } from 'react-chartjs-2'
 
 const Chart = ({ data }) => {
   const chartData = {
