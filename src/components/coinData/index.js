@@ -12,8 +12,6 @@ const CoinData = () => {
   const [coinData, setCoinData] = useState({})
   const [loading, setLoading] = useState(true)
 
-  let classStyle = 'positive'
-
   useEffect(() => {
     const getCoinData = async () => {
       const response = await axios.get(
