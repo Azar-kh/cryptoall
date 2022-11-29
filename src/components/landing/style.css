@@ -58,7 +58,7 @@ input:focus::placeholder {
 		width: 95%;
 	}
 
-	h3 {
+	.input h3 {
 		padding: 0 1rem;
 		font-size: 1em;
 	}
@@ -74,5 +74,11 @@ input:focus::placeholder {
 
 	input {
 		width: 95%;
+	}
+
+	.input h3 {
+		padding: 0 1rem;
+		font-size: 0.9em;
+		text-align: center;
 	}
 }
